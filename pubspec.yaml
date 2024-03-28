@@ -1,0 +1,48 @@
+name: dashang1
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0-276.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.25.5
+  cloud_firestore: ^4.15.6
+  firebase_auth: ^4.17.6
+  get: ^4.6.6
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+
+    # cupertino_icons: ^1.0.6
+    # firebase_core: ^2.25.5
+    # cloud_firestore: ^4.15.6
+    # firebase_auth: ^4.17.6
+    # get: ^4.6.6
+    # image_picker: ^1.0.7
+
+flutter:
+
+
+  uses-material-design: true
+ 
+  assets:
+    - assets/
+
+  fonts:
+     - family: Salsa-Regular
+       fonts:
+         - asset: fonts/Salsa-Regular.ttf
+ 
+
